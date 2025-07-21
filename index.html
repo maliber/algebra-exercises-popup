@@ -2,23 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algebra Figma</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-
-    <div class="frame1">
-        <h1 class="frame1-h1 margine-bottom-16px">How to Use CSS Box Model Effectively</h1>
-        <p class="margine-bottom-16px">When designing web layouts, understanding the relationship between
-            typography and the box model is crucial.
-            Each text element occupies space that can be controlled through padding, margin, and border properties.</p>
-        <div class="frame2 margine-bottom-16px">
-            <h2 class="frame2-h2">KEY CONCEPTS</h2>
-            <div class="fram4">
-                <ul class="frame2-ul">
+    <div class="panel panel--parent">
+        <div class="panel__title">How to Use CSS Box Model Effectively</div>
+        <div class="panel__text">
+            When designing web layouts, understanding the relationship between
+            typography and the box model is crucial. Each text element occupies
+            space that can be controlled through padding, margin, and border
+            properties.
+        </div>
+        <div class="panel panel--child">
+            <div class="panel__subtitle">KEY CONCEPTS</div>
+            <div class="panel__text">
+                <ul>
                     <li>Content - The actual text or content inside the element</li>
                     <li>Padding - Space between content and border</li>
                     <li>Border - The line around the padding and content</li>
@@ -26,14 +28,15 @@
                 </ul>
             </div>
         </div>
-        <div class="frame3">
-            <h2 class="frame3-h2">PRO TIP</h2>
-            <p>Use consistent spacing values to create visual hierarchy and improve readability. Notice how this callout
-                uses padding and a left border for emphasis.</p>
+        <div class="panel panel--child panel--tip">
+            <div class="panel__subtitle">PRO TIP</div>
+            <div class="panel__text">
+                Use consistent spacing values to create visual hierarchy and improve
+                readability. Notice how this callout uses padding and a left border
+                for emphasis.
+            </div>
         </div>
     </div>
-    </div>
-
 </body>
 
 </html>
